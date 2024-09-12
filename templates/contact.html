@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactez l'Administrateur</title>
+  <style>
+    body {
+      background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.pngtree.com%2Ffreepng%2Fweather-forecast_4490294.html&psig=AOvVaw22bYOytr1qXGuG4rbg0L_I&ust=1726239565158000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCvvNXVvYgDFQAAAAAdAAAAABAE');
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      width: 50%;
+      margin: 50px auto;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: none;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Contactez l'Administrateur</h1>
+    <p>Ce site a été créé par BAZZI Aymane dans le cadre d'un travail demandé par le professeur.</p>
+    <p>Si vous avez besoin de contacter l'administrateur de la page, veuillez remplir le formulaire ci-dessous.</p>
+   
+    <form action="submit_form.php" method="post">
+      <input type="text" name="nom" placeholder="Nom"><br>
+      <input type="text" name="prenom" placeholder="Prénom"><br>
+      <textarea name="message" rows="5" placeholder="Votre message"></textarea><br>
+      <input type="submit" value="Envoyer">
+    </form>
+  </div>
+</body>
+</html>
